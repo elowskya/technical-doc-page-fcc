@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header #nav-bar {   
+    position: fixed;
+    width: 100vw;
+    background: rgba(26, 94, 110, 0.8);
+}
+
+#header nav ul li {
+    list-style: none;
+    padding: 2% 3% 0;
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+#main-doc {
+    padding-top: 8%;
+}
+
+/* form holder */
+#contact article {
+    background: url("../womanPainting1.jpg") no-repeat center center fixed; 
+    background-size: cover; 
+    padding: 2%;
+    border-radius: 5px;
+}
+
+
+/* beginning of form */
+#title, #description {
+    text-align: center;
+    color: rgb(243, 249, 250);
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgb(242, 246, 247);
+    font-family: cursive;
+    font-size: 150%; 
+}
+
+#centerText {
+    text-align: center;
+    color: rgb(26, 94, 110);
+}
+
+#title {
+    font-size: 250%;
+    color: rgb(26, 94, 110);
+}
+
+#form {
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(210, 210, 211, 0.842);
+}
+
+#name, #email, textarea, #submit, #_replyto {
+   border: none;
+   border-radius: 5px;
+    padding: 2%;
+    margin: 1% 0;
+    width: 98%;
+    margin-bottom: 4%;
+}
+
+#submit {
+    background: rgba(26, 94, 110, 0.8);
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+/* end of form */
